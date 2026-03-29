@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>記事タイトルをここに</title>
+  <style>
+    /* =====================
+       基本設定
+    ===================== */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --text: #1a1a1a;
+      --bg: #fafaf8;
+      --accent: #e8e0d5;
+      --max-w: 630px;
+      --font-body: 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', 'Noto Sans JP', sans-serif;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: var(--font-body);
+      font-size: 16px;
+      line-height: 1.9;
+      padding: 60px 24px 120px;
+    }
+
+    @media (min-width: 768px) {
+      body { font-size: 18px; }
+    }
+
+    /* =====================
+       レイアウト
+    ===================== */
+    .container {
+      max-width: var(--max-w);
+      margin: 0 auto;
+    }
+
+    /* =====================
+       ヘッダー
+    ===================== */
+    header {
+      margin-bottom: 48px;
+    }
+
+    h1 {
+      font-size: clamp(20px, 4vw, 28px);
+      line-height: 1.5;
+      font-weight: bold;
+      letter-spacing: 0.01em;
+    }
+
+    /* =====================
+       本文
+    ===================== */
+    .body p {
+      margin-bottom: 1.6em;
+    }
+
+    .body h2 {
+      font-size: 19px;
+      font-weight: bold;
+      margin: 2.4em 0 0.8em;
+    }
+
+    .body h3 {
+      font-size: 16px;
+      font-weight: bold;
+      margin: 2em 0 0.6em;
+      color: #444;
+    }
+
+    /* =====================
+       装飾 3種
+    ===================== */
+
+    /* 黄色マーカー */
+    mark {
+      background: #ffe066;
+      color: inherit;
+      padding: 0 2px;
+      border-radius: 2px;
+    }
+
+    /* 赤太字 */
+    .red {
+      color: #c0392b;
+      font-weight: bold;
+    }
+
+    /* 黒太字（strongのデフォルト） */
+    strong {
+      font-weight: bold;
+      color: var(--text);
+    }
+
+    /* =====================
+       その他のよく使う要素
+    ===================== */
+    blockquote {
+      margin: 1.6em 0;
+      padding: 16px 20px;
+      background: #ece7e2;
+      font-size: 15px;
+      color: #555;
+      border-radius: 4px;
+    }
+
+    hr {
+      border: none;
+      border-top: 1px solid var(--accent);
+      margin: 2.4em 0;
+    }
+
+    /* =====================
+       フッター
+    ===================== */
+    footer {
+      margin-top: 72px;
+      padding-top: 24px;
+      border-top: 1px solid var(--accent);
+      font-size: 12px;
+      color: #bbb;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+
+  <header>
+    <h1>記事タイトルをここに書く</h1>
+  </header>
+
+  <article class="body">
+
+    <!-- ===== ここから本文を書く ===== -->
+
+    <p>
+      リードのテキストをここに書く。最初の段落は読者が読むかどうかを決める部分なので、
+      結論か問いから入るのがいい。
+    </p>
+
+    <h2>セクション見出し</h2>
+
+    <p>
+      本文の段落はすべて <code>&lt;p&gt;</code> タグで囲む。
+      装飾は3種類だけ覚えればOK。
+    </p>
+
+    <p>
+      <mark>黄色マーカーはmarkタグ</mark>で囲む。
+      <span class="red">赤太字はspanにclassでred</span>をつける。
+      <strong>黒太字はstrongタグ</strong>。これだけ。
+    </p>
+
+    <h2>引用を使いたいとき</h2>
+
+    <blockquote>
+      引用文や強調したいまとまりはblockquoteで囲む。
+    </blockquote>
+
+    <p>
+      区切り線を入れたいときは <code>&lt;hr&gt;</code> を使う。
+    </p>
+
+    <hr>
+
+    <p>
+      以上がテンプレートの基本構造。タイトル・日付・本文を書き換えるだけで公開できる。
+    </p>
+
+    <!-- ===== 本文ここまで ===== -->
+
+  </article>
+
+  <footer>
+    &copy; 2025 名前など<!-- フッターに入れたいものがあれば。不要なら消す -->
+  </footer>
+
+</div>
+
+</body>
+</html>
