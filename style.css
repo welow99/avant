@@ -16,3 +16,4 @@ hr { border: none; border-top: 1px solid var(--accent); margin: 2em 0; }
 .body ul li { margin-bottom: 0.4em; }
 .center { text-align: center; }
 img { max-width: 100%; height: auto; display: block; margin: 1.2em auto; border-radius: 4px; }
+.body br { display: block; margin-bottom: 1.6em; content: ''; }
