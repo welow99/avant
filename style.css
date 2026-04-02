@@ -6,7 +6,7 @@ header { margin-bottom: 24px; }
 h1 { font-size: clamp(22px,3.5vw,28px); line-height: 1.4; font-weight: bold; margin: 0 0 0.7em; }
 .body p { margin-bottom: 0.8em; }
 .body > *:first-child { margin-top: 0; }
-.body h2 { font-size: clamp(19px,2.8vw,21px); font-weight: bold; margin: 0.55em 0 0.8em; }
+.body h2 { font-size: clamp(22px,3.5vw,28px); font-weight: bold; margin: 0.55em 0 0.8em; line-height: 1.4; }
 .body h3 { font-size: clamp(16px,2.2vw,17px); font-weight: bold; margin: 2em 0 0.6em; color: #444; }
 mark { background: #ffe066; color: inherit; padding: 0 2px; border-radius: 2px; }
 .red { color: #c0392b; font-weight: bold; }
@@ -20,3 +20,4 @@ img { max-width: 100%; height: auto; display: block; margin: 1.2em auto; border-
 img.img-left { float: left; display: inline; margin: 0.3em 1.2em 0.5em 0; }
 img.img-right { float: right; display: inline; margin: 0.3em 0 0.5em 1.2em; }
 .body br { display: block; margin-bottom: 0.8em; content: ''; }
+@media (max-width: 768px) { :root { --font: "Helvetica Neue", "Hiragino Sans", "Hiragino Kaku Gothic ProN", Arial, "Noto Sans JP", Meiryo, sans-serif; } }
