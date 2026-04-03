@@ -4,12 +4,12 @@
 body { background: var(--bg); color: var(--text); font-family: var(--font); font-size: clamp(17px,2.2vw,18px); line-height: 1.7; padding: 24px 24px 120px; }
 .container { max-width: var(--max-w); margin: 0 auto; }
 header { margin-bottom: 24px; }
-h1 { font-size: clamp(22px,5vw,38px); line-height: 1.3; font-weight: 900; margin: 0 0 0.7em; font-family: 'Noto Sans JP', 'Hiragino Sans', sans-serif; color: #222; }
+h1 { font-size: clamp(26px,5vw,38px); line-height: 1.3; font-weight: 900; margin: 0 0 0.7em; font-family: 'Noto Sans JP', 'Hiragino Sans', sans-serif; color: #222; }
 .body p { margin-bottom: 0.8em; }
 .body > *:first-child { margin-top: 0; }
-.body h1 { font-size: clamp(22px,5vw,38px); font-weight: 900; margin: 0.5em 0 0.8em; line-height: 1.3; font-family: 'Noto Sans JP', 'Hiragino Sans', sans-serif; color: #222; }
-.body h2 { font-size: clamp(22px,5vw,38px); font-weight: 900; margin: 0.5em 0 0.8em; line-height: 1.3; font-family: 'Noto Sans JP', 'Hiragino Sans', sans-serif; color: #222; }
-.body h3 { font-size: clamp(20px,3.8vw,30px); font-weight: bold; margin: 1.8em 0 0.6em; color: #444; }
+.body h1 { font-size: clamp(26px,5vw,38px); font-weight: 900; margin: 0.5em 0 0.8em; line-height: 1.3; font-family: 'Noto Sans JP', 'Hiragino Sans', sans-serif; color: #222; }
+.body h2 { font-size: clamp(26px,5vw,38px); font-weight: 900; margin: 0.5em 0 0.8em; line-height: 1.3; font-family: 'Noto Sans JP', 'Hiragino Sans', sans-serif; color: #222; }
+.body h3 { font-size: clamp(22px,3.8vw,30px); font-weight: bold; margin: 1.8em 0 0.6em; color: #444; }
 mark { background: rgb(255,220,0); color: inherit; padding: 0 2px; border-radius: 2px; }
 .red { color: rgb(204,0,0); font-weight: bold; }
 h1 .red, h2 .red, h3 .red { font-weight: inherit; }
