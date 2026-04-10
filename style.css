@@ -16,7 +16,7 @@ h1 mark, h2 mark, h3 mark { padding: 0 2px; line-height: 1; }
 h1 .red, h2 .red, h3 .red { font-weight: inherit; }
 strong { font-weight: bold; }
 span[style*="font-size"] { line-height: inherit; }
-blockquote { margin: 1.4em 0; padding: 14px 18px; background: #ece7e2; border-radius: 4px; font-size: 16px; color: #555; }
+blockquote { margin: 1.4em 0; padding: 14px 18px; background: #f5f8fa; font-size: 16px; color: inherit; }
 hr { border: none; border-top: 1px solid var(--accent); margin: 2em 0; }
 .body ul { margin: 0.8em 0 1.5em 1.5em; }
 .body ul li { margin-bottom: 0.4em; }
